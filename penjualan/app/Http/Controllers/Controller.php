@@ -9,5 +9,11 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
 class Controller extends BaseController
 {
+	public function index()
+{
+return 'Mengakses Fungsi di Controller menggunakan route';
+}
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
+
+
