@@ -53,4 +53,9 @@ Route::get('/pelanggan', 'pelangganController@index');
 
 Route::resource('produk','produkControllerA');
 
+Route::get('/store', 'produkControllerA@store');
+
+Route::get('/update', 'produkControllerA@update');
+
+Route::get('/destroy', 'produkControllerA@destroy');
 
